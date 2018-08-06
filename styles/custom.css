@@ -1,0 +1,177 @@
+
+.navbar-default {
+   background-color: #fff;
+   border-color: #fff;
+}
+
+.navbar-default
+.navbar-collapse
+.navbar-nav
+.active a {
+    background-color: #fff;
+    color: #000099;
+}
+
+.navbar-default .navbar-nav li a {
+    font-size: 12px;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0000cc;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 35px;
+    height: 4px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    padding-left: 0px
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+
+.top-header {
+   margin-top: 6px;
+   padding-left: 0px;
+   position: relative;
+
+}
+
+
+.top-header h3 {
+   color: #0000bb;
+}
+
+.top-header p {
+   font-size: 18px;
+}
+
+.top-header button {
+   font-size: 20px;
+
+}
+
+.top-header img {
+   margin-left: 30px;
+   margin-top: 1.6em;
+}
+
+
+.topjumbotron {
+   background-color: #add8e6;
+
+}
+
+.topjumbotron  p {
+   font-weight: bold;
+   padding: 10px 10px;
+
+}
+
+.topjumbotron .bottomquote{
+   font-size: 16px;
+
+}
+
+.topjumbotron .bottomquote .grey {
+   color: #696969;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.midsection_title p {
+   color: #e59400;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.midsection h3 {
+   color: #e59400;
+}
+
+.youtube h3 {
+   color: #e59400;
+
+}
+
+.youtube-text p{
+   font-size: 18px;
+   font-weight: 400;
+}
+
+
+.bottomjumbotron {
+    background-color: #e59400;
+    color: #fff;
+}
+
+.bottom-nav {
+   left: 0;
+   margin: 20 auto;
+   position: absolute;
+   right: 0;
+   text-align: center;
+   top: 8px;
+}
+
+.copyright {
+   font-size: 0.95em;
+   padding-left: 0;
+   padding-right: 0;
+
+}
+
+
+
+
+
+/********** Media Queries **************/
+
+
+/* Extra Small */
+@media(min-width:576px){}
+
+}
+
+
+
+/* Small */
+@media(min-width:768px){
+  .col-sm-4 .bottom-nav {
+     float: right;
+     top: 0;
+  }
+
+  }
+
+
+
+/* Medium */
+@media(min-width:992px){
+  .youtube {
+     width: 80%;
+   }
+
+ .top-header h3 {
+    font-size: 33px;
+  }
+
+  .top-header p {
+     font-size: 16px;
+   }
+
+
+
+/* Large */
+@media(min-width:1200px){
+
+}
